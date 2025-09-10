@@ -18,10 +18,8 @@ import customer from "./assets/customer.png";
 import card from "./assets/card.png";
 import card1 from "./assets/card1.png";
 import card2 from "./assets/card2.png";
-import image3 from "./assets/image3.png";
+import nexcent3 from "./assets/nexcent3.png";
 import links from "./assets/links.png";
-import input from "./assets/input.png";
-
 
 function App() {
   return (
@@ -186,7 +184,7 @@ The Nextcent blog is the best place to read about them <br /> latest membership 
       </div>
       
       <div className="footerr">
-        <img src={image3} alt="" className="image3" />
+        <img src={nexcent3} alt="image3" className="image3" />
         <p className="copyright">Copyright © 2020 Landify UI Kit.</p>
         <p className="copyright">All rights reserved</p>
         <img src={links} alt="" className="links" />
